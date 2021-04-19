@@ -1,0 +1,92 @@
+.flight {
+  display: flex;
+  background: #fff;
+  height: 120px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(0,0,0,.12);
+  border-radius: 16px;
+  &:first-child {
+    margin-top: 12px;
+  }
+  &:last-child {
+    margin-bottom: 12px;
+  }
+  &__img {
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    margin-right: 24px;
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  &__caption {
+    font-size: 11px;
+    font-weight: 700;
+    color: rgba(0,0,0,.54);
+  }
+  .list-content {
+    flex: 1 1 auto;
+  }
+  &__time {
+    max-width: 200px;
+    .list-content__title {
+      font-weight: 700;
+    }
+  }
+  &__duration {
+    max-width: 100px;
+  }
+  &__layover {
+    max-width: 100px;
+  }
+  &__button.icon-button {
+    border-radius: 4px;
+    width: auto;
+    height: 36px;
+    font-size: 14px;
+    padding: 0 28px;
+    background-color: var(--color-accent);
+    color: #fff;
+  }
+  &__link {
+    margin-top: 4px;
+    display: inline-flex;
+    justify-content: center;
+    font-size: 12px;
+    line-height: 18px;
+    color: var(--color-accent);
+    text-decoration: none;
+    .material-icons {
+      font-size: 18px;
+      color: inherit;
+      line-height: 18px;
+    }
+  }
+}
+.flight-amenities {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-left: 1px dotted rgba(0, 0, 0, .12);
+  padding-right: 16px;
+  padding-left: 16px;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  &__icon-wrapper {
+
+  }
+  &__icon {
+    font-size: 18px;
+    color: rgba(0,0,0,.34);
+    &--active {
+      color: rgb(0,0,0);
+    }
+  }
+}

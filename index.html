@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yatra | Book your ticket online</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta charset="utf-8">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="true">
+    <meta name="apple-mobile-web-app-title" content="Yatra">
+    <meta name="author" content="nishant">
+    <meta name="theme-color" content="#FF5300">
+</head>
+<body>
+<header class="header">
+   <div class="container d-flex align-item-center">
+       <button class="icon-button header__menu">
+           <i class="material-icons icon-button__icon">menu</i>
+       </button>
+       <div class="header__title">Yatra</div>
+       <div class="flex-grow"></div>
+       <div class="avatar d-flex align-item-center justify-content-center">R</div>
+   </div>
+</header>
+<main>
+    <div class="page">
+        <div class="page__filter">
+            <div class="filter">
+                <div class="filter__header d-flex">
+                    <button class="icon-button button text-primary">
+                        <span class="icon-button__icon material-icons">filter_list</span>
+                        <span class="button__label">Filters</span>
+                    </button>
+                    <div class="flex-grow"></div>
+                    <button class="icon-button icon-button--dense">
+                        <i class="material-icons icon-button__icon">refresh</i>
+                    </button>
+                    <button class="icon-button icon-button--dense">
+                        <i class="material-icons icon-button__icon">check</i>
+                    </button>
+                    <button class="icon-button button" disabled>
+                        <span class="button__label">Apply</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="page__result">
+            <h1 class="page__title">Best Flights</h1>
+            <p class="page__subtitle">Total price includes taxes + fees for 1 adult. Additional bag fees and other fees may apply</p>
+            <div class="page__result-wrapper">
+                <div class="page__result-inner-wrapper flex-grow">
+                    <nav class="list list-flight flex-grow">
+                        <div class="list-item flight">
+                            <div class="flight__img">
+                                <img src="./static/2132746.png" title="spice jet logo" />
+                            </div>
+                            <div class="list-content flight__time">
+                                <div class="list-content__title">
+                                    21:55 - 07:00 <sup class="flight__caption">+2 Days</sup>
+                                </div>
+                                <div class="list-content__subtitle--contrast list-content__subtitle">
+                                    Spicejet
+                                </div>
+                            </div
+                            >
+                            <div class="flex-grow"></div>
+                            <div class="list-content flight__duration">
+                                <div class="list-content__title">
+                                    43h 35 m
+                                </div>
+                                <div class="list-content__subtitle--contrast list-content__subtitle">
+                                    BLR-JFK
+                                </div>
+                            </div>
+                            <div class="list-content flight__layover">
+                                <div class="list-content__title">
+                                    1 Stop
+                                </div>
+                                <div class="list-content__subtitle--contrast list-content__subtitle">
+                                    22 h 20 m DEL
+                                </div>
+                            </div>
+                            <div class="flex-grow"></div>
+                            <div class="flight-amenities">
+                                <div class="flight-amenities__icon-wrapper">
+                                    <i class="material-icons flight-amenities__icon">restaurant</i>
+                                    <i class="material-icons flight-amenities__icon">wifi</i>
+                                    <i class="material-icons flight-amenities__icon">airline_seat_legroom_normal</i>
+                                    <i class="material-icons flight-amenities__icon flight-amenities__icon--active">power</i>
+                                    <i class="material-icons flight-amenities__icon flight-amenities__icon--active">ondemand_video</i>
+                                </div>
+                                <button class="icon-button flight__button">Book Now</button>
+                                <a href="#" class="flight__link">Flight Details <i class="material-icons">expand_more</i></a>
+                            </div>
+                        </div>
+                        <div class="list-item flight">
+                            <div class="flight__img">
+                                <img src="./static/2132746.png" title="spice jet logo" />
+                            </div>
+                            <div class="list-content flight__time">
+                                <div class="list-content__title">
+                                    21:55 - 07:00 <sup class="flight__caption">+2 Days</sup>
+                                </div>
+                                <div class="list-content__subtitle--contrast list-content__subtitle">
+                                    Spicejet
+                                </div>
+                            </div
+                            >
+                            <div class="flex-grow"></div>
+                            <div class="list-content flight__duration">
+                                <div class="list-content__title">
+                                    43h 35 m
+                                </div>
+                                <div class="list-content__subtitle--contrast list-content__subtitle">
+                                    BLR-JFK
+                                </div>
+                            </div>
+                            <div class="list-content flight__layover">
+                                <div class="list-content__title">
+                                    1 Stop
+                                </div>
+                                <div class="list-content__subtitle--contrast list-content__subtitle">
+                                    22 h 20 m DEL
+                                </div>
+                            </div>
+                            <div class="flex-grow"></div>
+                            <div class="flight-amenities">
+                                <div class="flight-amenities__icon-wrapper">
+                                    <i class="material-icons flight-amenities__icon">restaurant</i>
+                                    <i class="material-icons flight-amenities__icon">wifi</i>
+                                    <i class="material-icons flight-amenities__icon">airline_seat_legroom_normal</i>
+                                    <i class="material-icons flight-amenities__icon flight-amenities__icon--active">power</i>
+                                    <i class="material-icons flight-amenities__icon flight-amenities__icon--active">ondemand_video</i>
+                                </div>
+                                <button class="icon-button flight__button">Book Now</button>
+                                <a href="#" class="flight__link">Flight Details <i class="material-icons">expand_more</i></a>
+                            </div>
+                        </div>
+                        <div class="list-item flight">
+                            <div class="flight__img">
+                                <img src="./static/2132746.png" title="spice jet logo" />
+                            </div>
+                            <div class="list-content flight__time">
+                                <div class="list-content__title">
+                                    21:55 - 07:00 <sup class="flight__caption">+2 Days</sup>
+                                </div>
+                                <div class="list-content__subtitle--contrast list-content__subtitle">
+                                    Spicejet
+                                </div>
+                            </div
+                            >
+                            <div class="flex-grow"></div>
+                            <div class="list-content flight__duration">
+                                <div class="list-content__title">
+                                    43h 35 m
+                                </div>
+                                <div class="list-content__subtitle--contrast list-content__subtitle">
+                                    BLR-JFK
+                                </div>
+                            </div>
+                            <div class="list-content flight__layover">
+                                <div class="list-content__title">
+                                    1 Stop
+                                </div>
+                                <div class="list-content__subtitle--contrast list-content__subtitle">
+                                    22 h 20 m DEL
+                                </div>
+                            </div>
+                            <div class="flex-grow"></div>
+                            <div class="flight-amenities">
+                                <div class="flight-amenities__icon-wrapper">
+                                    <i class="material-icons flight-amenities__icon">restaurant</i>
+                                    <i class="material-icons flight-amenities__icon">wifi</i>
+                                    <i class="material-icons flight-amenities__icon">airline_seat_legroom_normal</i>
+                                    <i class="material-icons flight-amenities__icon flight-amenities__icon--active">power</i>
+                                    <i class="material-icons flight-amenities__icon flight-amenities__icon--active">ondemand_video</i>
+                                </div>
+                                <button class="icon-button flight__button">Book Now</button>
+                                <a href="#" class="flight__link">Flight Details <i class="material-icons">expand_more</i></a>
+                            </div>
+                        </div>
+                        <div class="list-item flight">
+                            <div class="flight__img">
+                                <img src="./static/2132746.png" title="spice jet logo" />
+                            </div>
+                            <div class="list-content flight__time">
+                                <div class="list-content__title">
+                                    21:55 - 07:00 <sup class="flight__caption">+2 Days</sup>
+                                </div>
+                                <div class="list-content__subtitle--contrast list-content__subtitle">
+                                    Spicejet
+                                </div>
+                            </div
+                            >
+                            <div class="flex-grow"></div>
+                            <div class="list-content flight__duration">
+                                <div class="list-content__title">
+                                    43h 35 m
+                                </div>
+                                <div class="list-content__subtitle--contrast list-content__subtitle">
+                                    BLR-JFK
+                                </div>
+                            </div>
+                            <div class="list-content flight__layover">
+                                <div class="list-content__title">
+                                    1 Stop
+                                </div>
+                                <div class="list-content__subtitle--contrast list-content__subtitle">
+                                    22 h 20 m DEL
+                                </div>
+                            </div>
+                            <div class="flex-grow"></div>
+                            <div class="flight-amenities">
+                                <div class="flight-amenities__icon-wrapper">
+                                    <i class="material-icons flight-amenities__icon">restaurant</i>
+                                    <i class="material-icons flight-amenities__icon">wifi</i>
+                                    <i class="material-icons flight-amenities__icon">airline_seat_legroom_normal</i>
+                                    <i class="material-icons flight-amenities__icon flight-amenities__icon--active">power</i>
+                                    <i class="material-icons flight-amenities__icon flight-amenities__icon--active">ondemand_video</i>
+                                </div>
+                                <button class="icon-button flight__button">Book Now</button>
+                                <a href="#" class="flight__link">Flight Details <i class="material-icons">expand_more</i></a>
+                            </div>
+                        </div>
+                        <div class="list-item flight">
+                            <div class="flight__img">
+                                <img src="./static/2132746.png" title="spice jet logo" />
+                            </div>
+                            <div class="list-content flight__time">
+                                <div class="list-content__title">
+                                    21:55 - 07:00 <sup class="flight__caption">+2 Days</sup>
+                                </div>
+                                <div class="list-content__subtitle--contrast list-content__subtitle">
+                                    Spicejet
+                                </div>
+                            </div
+                            >
+                            <div class="flex-grow"></div>
+                            <div class="list-content flight__duration">
+                                <div class="list-content__title">
+                                    43h 35 m
+                                </div>
+                                <div class="list-content__subtitle--contrast list-content__subtitle">
+                                    BLR-JFK
+                                </div>
+                            </div>
+                            <div class="list-content flight__layover">
+                                <div class="list-content__title">
+                                    1 Stop
+                                </div>
+                                <div class="list-content__subtitle--contrast list-content__subtitle">
+                                    22 h 20 m DEL
+                                </div>
+                            </div>
+                            <div class="flex-grow"></div>
+                            <div class="flight-amenities">
+                                <div class="flight-amenities__icon-wrapper">
+                                    <i class="material-icons flight-amenities__icon">restaurant</i>
+                                    <i class="material-icons flight-amenities__icon">wifi</i>
+                                    <i class="material-icons flight-amenities__icon">airline_seat_legroom_normal</i>
+                                    <i class="material-icons flight-amenities__icon flight-amenities__icon--active">power</i>
+                                    <i class="material-icons flight-amenities__icon flight-amenities__icon--active">ondemand_video</i>
+                                </div>
+                                <button class="icon-button flight__button">Book Now</button>
+                                <a href="#" class="flight__link">Flight Details <i class="material-icons">expand_more</i></a>
+                            </div>
+                        </div>
+                        <div class="list-item flight">
+                            <div class="flight__img">
+                                <img src="./static/2132746.png" title="spice jet logo" />
+                            </div>
+                            <div class="list-content flight__time">
+                                <div class="list-content__title">
+                                    21:55 - 07:00 <sup class="flight__caption">+2 Days</sup>
+                                </div>
+                                <div class="list-content__subtitle--contrast list-content__subtitle">
+                                    Spicejet
+                                </div>
+                            </div
+                            >
+                            <div class="flex-grow"></div>
+                            <div class="list-content flight__duration">
+                                <div class="list-content__title">
+                                    43h 35 m
+                                </div>
+                                <div class="list-content__subtitle--contrast list-content__subtitle">
+                                    BLR-JFK
+                                </div>
+                            </div>
+                            <div class="list-content flight__layover">
+                                <div class="list-content__title">
+                                    1 Stop
+                                </div>
+                                <div class="list-content__subtitle--contrast list-content__subtitle">
+                                    22 h 20 m DEL
+                                </div>
+                            </div>
+                            <div class="flex-grow"></div>
+                            <div class="flight-amenities">
+                                <div class="flight-amenities__icon-wrapper">
+                                    <i class="material-icons flight-amenities__icon">restaurant</i>
+                                    <i class="material-icons flight-amenities__icon">wifi</i>
+                                    <i class="material-icons flight-amenities__icon">airline_seat_legroom_normal</i>
+                                    <i class="material-icons flight-amenities__icon flight-amenities__icon--active">power</i>
+                                    <i class="material-icons flight-amenities__icon flight-amenities__icon--active">ondemand_video</i>
+                                </div>
+                                <button class="icon-button flight__button">Book Now</button>
+                                <a href="#" class="flight__link">Flight Details <i class="material-icons">expand_more</i></a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div class="page__offer">
+                    <div class="page__offer-wrapper">
+                        <div class="page__offer-class"><i class="material-icons">check</i> Economy</div>
+                        <div class="page__offer-price">$ 577.00</div>
+                        <div class="page__offer-caption">Price per person</div>
+                        <div class="page__offer-caption">(incl. taxes & fees)</div>
+                        <div class="page__offer-details d-flex">
+                            <div class="page__offer-details-icon">
+                                <i class="material-icons">local_offer</i>
+                            </div>
+                            <div class="page__offer-details-description">
+                                Get up to $200 OFF<br/>
+                                Use code: FCINTFLY
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<aside id="drawer" class="drawer drawer--modal">
+    <div class="drawer__scrim"></div>
+    <div class="drawer__surface">
+        <div class="drawer__header">
+            <h3 class="drawer__title">Yatra</h3>
+            <h6 class="drawer__subtitle"></h6>
+        </div>
+        <div class="drawer-divider"></div>
+        <div class="drawer__content">
+            <nav class="list">
+                <div class="list-item" tabindex="0">
+                    <div class="list-graphic">
+                        <i class="material-icons">flight</i>
+                    </div>
+                    <div class="list-content">
+                        <div class="list-content__title">
+                            Flight
+                        </div>
+                    </div>
+                </div>
+                <div class="list-item" tabindex="0">
+                    <div class="list-graphic">
+                        <i class="material-icons">hotel</i>
+                    </div>
+                    <div class="list-content">
+                        <div class="list-content__title">
+                            Hotel
+                        </div>
+                    </div>
+                </div>
+                <div class="list-divider"></div>
+                <div class="list-item" tabindex="0">
+                    <div class="list-graphic">
+                        <i class="material-icons">book</i>
+                    </div>
+                    <div class="list-content">
+                        <div class="list-content__title">
+                            Booking
+                        </div>
+                    </div>
+                </div>
+                <div class="list-item" tabindex="0">
+                    <div class="list-graphic">
+                        <i class="material-icons">hiking</i>
+                    </div>
+                    <div class="list-content">
+                        <div class="list-content__title">
+                             Travellers
+                        </div>
+                    </div>
+                </div>
+                <div class="list-divider"></div>
+                <div class="list-item" tabindex="0">
+                    <div class="list-graphic">
+                        <i class="material-icons">account_balance_wallet</i>
+                    </div>
+                    <div class="list-content">
+                        <div class="list-content__title">
+                            Agency Wallet
+                        </div>
+                    </div>
+                </div>
+                <div class="list-item" tabindex="0">
+                    <div class="list-graphic">
+                        <i class="material-icons">people</i>
+                    </div>
+                    <div class="list-content">
+                        <div class="list-content__title">
+                            Agency Users
+                        </div>
+                    </div>
+                </div>
+                <div class="list-item" tabindex="0">
+                    <div class="list-graphic">
+                        <i class="material-icons">corporate_fare</i>
+                    </div>
+                    <div class="list-content">
+                        <div class="list-content__title">
+                            Organisation Profile
+                        </div>
+                    </div>
+                </div>
+                <div class="list-item" tabindex="0">
+                    <div class="list-graphic">
+                        <i class="material-icons">settings</i>
+                    </div>
+                    <div class="list-content">
+                        <div class="list-content__title">
+                            Settings
+                        </div>
+                    </div>
+                </div>
+                <div class="list-divider"></div>
+                <div class="list-item" tabindex="0">
+                    <div class="list-graphic">
+                        <i class="material-icons">error</i>
+                    </div>
+                    <div class="list-content">
+                        <div class="list-content__title">
+                            About
+                        </div>
+                    </div>
+                </div>
+                <div class="list-item" tabindex="0">
+                    <div class="list-graphic">
+                        <i class="material-icons">help</i>
+                    </div>
+                    <div class="list-content">
+                        <div class="list-content__title">
+                            Help & Feedback
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</aside>
+<script>
+    const menu = document.querySelector('.header__menu')
+    const drawer = document.querySelector('.drawer')
+    const scrim = document.querySelector('.drawer__scrim')
+    scrim.addEventListener('click', function () {
+        drawer.classList.add('drawer--animate')
+        requestAnimationFrame(()=> {
+            drawer.classList.add('drawer--closing')
+            drawer.classList.remove('drawer--opened')
+        })
+        setTimeout(() => {
+            drawer.classList.remove('drawer--closing')
+            drawer.classList.remove('drawer--animate')
+        }, 300)
+    })
+    menu.addEventListener('click', function () {
+        drawer.classList.add('drawer--animate')
+        setTimeout(() => {
+            drawer.classList.add('drawer--opening')
+        }, 10)
+        setTimeout(() => {
+            drawer.classList.add('drawer--opened')
+            drawer.classList.remove('drawer--opening')
+            drawer.classList.remove('drawer--animate')
+        }, 300)
+    })
+</script>
+</body>
+</html>

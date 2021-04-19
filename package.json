@@ -1,0 +1,21 @@
+{
+    "name": "yatra",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "devDependencies": {
+        "browserify": "^17.0.0",
+        "browserslist": "^4.14.7",
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^7.0.1",
+        "gulp-notify": "^3.2.0",
+        "gulp-sass": "^4.1.0",
+        "gulp-sourcemaps": "^3.0.0"
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not ie <= 11"
+    ],
+    "dependencies": {}
+}
