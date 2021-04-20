@@ -106,7 +106,44 @@
     justify-content: center;
     border-bottom: 1px solid rgba(0,0,0,.12);
   }
+  &__checkbox-header {
+    padding: 12px 0;
+    color: rgba(0,0,0,.54);
+    margin-bottom: 8px;
+  }
+  &__checkbox-label {
+    font-size: 14px;
+    font-weight: 700;
+    &--active {
+      color: rgba(0,0,0,.87);
+    }
+  }
+  &__checkbox-meta-info {
+    color: rgba(0,0,0,.54);
+    align-items: center;
+  }
+  &__checkbox-wrapper {
+    display: flex;
+    padding: 12px 0;
+    color: rgba(0,0,0,.54);
+    margin-bottom: 8px;
+    align-items: center;
+  }
+  &__stop {
+    margin-top: 8px;
+  }
+
+  &__from {
+    margin-top: 8px;
+  }
 }
 .text-primary {
   color: var(--color-primary);
+}
+
+@media screen and (max-width: 479px) {
+  .page__filter,
+  .page-offer {
+    display: none !important;
+  }
 }
